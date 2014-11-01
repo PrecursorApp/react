@@ -105,6 +105,7 @@ var ReactDOM = mapObject({
   figcaption: false,
   figure: false,
   footer: false,
+  foreignObject: true,
   form: false, // NOTE: Injected, see `ReactDOMForm`.
   h1: false,
   h2: false,
