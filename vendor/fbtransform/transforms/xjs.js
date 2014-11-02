@@ -62,6 +62,7 @@ var knownTags = {
   figcaption: true,
   figure: true,
   footer: true,
+  foreignObject: true,
   form: true,
   g: true,
   h1: true,
