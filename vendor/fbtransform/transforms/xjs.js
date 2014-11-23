@@ -40,6 +40,7 @@ var knownTags = {
   caption: true,
   circle: true,
   cite: true,
+  clipPath: true,
   code: true,
   col: true,
   colgroup: true,

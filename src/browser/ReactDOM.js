@@ -86,6 +86,7 @@ var ReactDOM = mapObject({
   canvas: false,
   caption: false,
   cite: false,
+  clipPath: false,
   code: false,
   col: true,
   colgroup: false,

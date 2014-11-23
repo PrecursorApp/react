@@ -26,6 +26,7 @@ var MUST_USE_ATTRIBUTE = DOMProperty.injection.MUST_USE_ATTRIBUTE;
 
 var SVGDOMPropertyConfig = {
   Properties: {
+    clipPath: MUST_USE_ATTRIBUTE,
     cx: MUST_USE_ATTRIBUTE,
     cy: MUST_USE_ATTRIBUTE,
     d: MUST_USE_ATTRIBUTE,
@@ -42,6 +43,7 @@ var SVGDOMPropertyConfig = {
     markerEnd: MUST_USE_ATTRIBUTE,
     markerMid: MUST_USE_ATTRIBUTE,
     markerStart: MUST_USE_ATTRIBUTE,
+    mask: MUST_USE_ATTRIBUTE,
     offset: MUST_USE_ATTRIBUTE,
     opacity: MUST_USE_ATTRIBUTE,
     patternContentUnits: MUST_USE_ATTRIBUTE,
@@ -72,6 +74,7 @@ var SVGDOMPropertyConfig = {
     y: MUST_USE_ATTRIBUTE
   },
   DOMAttributeNames: {
+    clipPath: 'clip-path',
     fillOpacity: 'fill-opacity',
     fontFamily: 'font-family',
     fontSize: 'font-size',
@@ -80,6 +83,7 @@ var SVGDOMPropertyConfig = {
     markerEnd: 'marker-end',
     markerMid: 'marker-mid',
     markerStart: 'marker-start',
+    mask: 'mask',
     patternContentUnits: 'patternContentUnits',
     patternUnits: 'patternUnits',
     patternTransform: 'patternTransform',
