@@ -107,6 +107,7 @@ var ReactDOM = mapObject({
   main: 'main',
   map: 'map',
   mark: 'mark',
+  marker: 'marker',
   menu: 'menu',
   menuitem: 'menuitem',
   meta: 'meta',
